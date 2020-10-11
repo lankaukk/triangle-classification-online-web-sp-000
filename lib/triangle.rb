@@ -10,6 +10,7 @@ class Triangle
     if side_3 == side_2 &&
       side_2 == side_1
       return :equilateral
+    end
   end
   
   class TriangleError < StandardError
